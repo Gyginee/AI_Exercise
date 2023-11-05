@@ -1,10 +1,8 @@
 ## Giải Thích Code Sử Dụng Cho Bài Toán Người Nông Dân Qua Sông
-
-## BFS
 ### Mục Đích
-
 Mã code này giải quyết bài toán về việc di chuyển các thành phần (người chăn, sói, dê, cỏ) qua sông sử dụng thuật toán Duyệt theo Chiều Rộng (BFS).
 
+## BFS
 ### Cấu Trúc Mã
 
 1. **Class TrangThai**:
@@ -32,10 +30,6 @@ Mã code này giải quyết bài toán về việc di chuyển các thành ph�
 Mỗi bước di chuyển, mã in ra số bước di chuyển, mô tả bước di chuyển được thực hiện và trạng thái sau bước di chuyển. Khi tìm thấy giải pháp, nó sẽ thông báo đã hoàn thành và mô tả trạng thái cuối cùng.
 
 ## DFS
-### Mục Đích
-
-Mã code giải quyết bài toán về người nông dân qua sông với một con sói, một con dê và một bó cải, sử dụng thuật toán Duyệt theo Chiều Sâu (DFS).
-
 ### Cấu Trúc Mã
 
 1. **Class TrangThai**:
@@ -53,7 +47,7 @@ Mã code giải quyết bài toán về người nông dân qua sông với mộ
     - Tạo trạng thái ban đầu với tất cả các đối tượng ở bờ bắt đầu.
     - Bắt đầu quá trình duyệt DFS từ trạng thái ban đầu và in kết quả.
 
-4. **Hàm `duyetDFS`**:
+4. **Hàm `timKiemDFS`**:
     - Hàm đệ quy duyệt các trạng thái và tìm giải pháp.
     - Nếu trạng thái là mục tiêu, in ra kết quả và mô tả trạng thái.
     - Nếu không phải mục tiêu, duyệt qua các bước di chuyển và tiếp tục duyệt đệ quy các trạng thái mới.
