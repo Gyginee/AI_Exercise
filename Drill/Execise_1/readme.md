@@ -1,6 +1,6 @@
 ## Giải Thích Code Sử Dụng Cho Bài Toán Người Nông Dân Qua Sông
 ### Mục Đích
-Mã code này giải quyết bài toán về việc di chuyển các thành phần (người chăn, sói, dê, cỏ) qua sông sử dụng thuật toán tìm kiếm theo Chiều Rộng (BFS) và thuật toán tìm kiếm theo Chiều Sâu (DFS) .
+Mã code này giải quyết bài toán về việc di chuyển các thành phần (người chăn, sói, dê, cỏ) qua sông sử dụng thuật toán tìm kiếm theo Chiều Rộng (BFS) và thuật toán tìm kiếm theo Chiều Sâu (DFS).
 
 ## BFS
 ### Cấu Trúc Mã
