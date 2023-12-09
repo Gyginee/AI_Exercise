@@ -52,7 +52,7 @@ public class AStar {
 
     public static void main(String[] args) {
         TrangThai trangThaiBanDau = new TrangThai(0, 0, 8); // Trạng thái ban đầu: A = 0, B = 0, C = 8
-        TrangThai trangThaiDich = new TrangThai(0, 4, 4); // Trạng thái đích: A = 0, B = 4, C = 4
+        TrangThai trangThaiDich = new TrangThai(3, 4, 1); // Trạng thái đích: A = 0, B = 4, C = 4
 
         thucHienThuatToanAStar(trangThaiBanDau, trangThaiDich);
     }
